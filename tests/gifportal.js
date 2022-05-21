@@ -3,7 +3,7 @@ const anchor = require('@project-serum/anchor')
 const main = async () => {
   console.log("Starting tests...")
 
-  const provider = anchor.getProvider()
+  const provider = anchor.Provider.env()
   anchor.setProvider(provider)
   const program = anchor.workspace.Gifportal
 

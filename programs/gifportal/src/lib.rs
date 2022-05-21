@@ -1,7 +1,7 @@
 use anchor_lang::prelude::*;
 use anchor_lang::solana_program::entrypoint::ProgramResult;
 
-declare_id!("4euswfWHJjfMGoHa4KKDMhnXNkPBkJsMv61tNMzJPo7t");
+declare_id!("BbM7MAyjo1gtXgtDBCjc6W4QD1ef54ratuqshNN9g6kr");
 
 
 #[program]
